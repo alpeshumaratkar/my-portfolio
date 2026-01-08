@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <meta http-equiv="X-UA-Compatible" content="ie=edge"/>
+    <title>Alpesh Umaratkar - Portfolio</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+    <!-- Navigation -->
+    <header>
+        <nav>
+            <div class="logo-container">
+            <div class="logo-text">Alpesh Umaratkar</div>
+            </div>
+            <ul class="nav-links">
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <div class="menu-toggle" id="mobile-menu">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </nav>
+    </header>
+
+   <!-- Hero Section -->
+<section class="hero" id="home">
+    <div class="hero-content">
+
+        <!-- Profile + Title -->
+        <div class="hero-intro">
+            <img src="images/Alpesh4.jpg" alt="Alpesh Profile" class="hero-img-large">
+            <div class="hero-texts">
+                <h1>Hi, I'm Alpesh Umaratkar</h1>
+                <p class="hero-role">Computer Science Engineer</p>
+                <p class="hero-role">Full Stack Developer | Problem Solver</p>
+            </div>
+        </div>
+
+    </div>
+</section>
+
+
+    <!-- About Section -->
+    <section class="about" id="about">
+        <h2>About Me</h2>
+        <div class="about-content">
+            <img 
+                src="https://images.unsplash.com/photo-1581093588401-7b1eb91474f0?auto=format&fit=crop&w=600&q=80" 
+                alt="Computer Science Engineering" 
+                class="about-image"
+            />
+            <p>
+                I'm a Computer Science Engineer passionate about developing web applications, exploring machine learning, and solving real-world tech problems.
+                I enjoy working with JavaScript, Python, and modern frameworks like React.
+            </p>
+        </div>
+    </section>
+
+
+    <!-- Skills Section -->
+<section class="skills" id="skills">
+    <h2>My Skills</h2>
+
+    <div class="skills-grid">
+        <!-- Skill Card -->
+        <div class="skill-card">
+            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" alt="HTML">
+            <p>HTML5</p>
+        </div>
+
+        <div class="skill-card">
+            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" alt="CSS">
+            <p>CSS3</p>
+        </div>
+
+        <div class="skill-card">
+            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" alt="JavaScript">
+            <p>JavaScript</p>
+        </div>
+
+        <div class="skill-card">
+            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" alt="React">
+            <p>React</p>
+        </div>
+
+        <div class="skill-card">
+            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg" alt="Node.js">
+            <p>Node.js</p>
+        </div>
+
+        <div class="skill-card">
+            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" alt="Python">
+            <p>Python</p>
+        </div>
+
+        <div class="skill-card">
+            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original.svg" alt="MongoDB">
+            <p>MongoDB</p>
+        </div>
+
+        <div class="skill-card">
+            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" alt="Git">
+            <p>Git</p>
+        </div>
+    </div>
+</section>
+
+
+    <!-- Projects Section -->
+    <section class="projects" id="projects">
+        <h2>My Projects</h2>
+        <div class="project-cards">
+            <div class="card">
+                <img 
+                    src="https://images.unsplash.com/photo-1529101091764-c3526daf38fe?auto=format&fit=crop&w=800&q=80" 
+                    alt="Personal Blog Project"
+                >
+                <div class="card-content">
+                    <h3>Personal Blog</h3>
+                    <p>A responsive blog built using React and Express.js.</p>
+                </div>
+            </div>
+            <div class="card">
+                <img 
+                    src="https://images.unsplash.com/photo-1542744173-8e7e53415bb0?auto=format&fit=crop&w=800&q=80" 
+                    alt="E-commerce Project"
+                >
+                <div class="card-content">
+                    <h3>E-commerce Website</h3>
+                    <p>Online shopping platform with MongoDB and secure payments.</p>
+                </div>
+            </div>
+            
+            <a href="https://web-python-chatbot.onrender.com" target="_blank" class="project-link">
+    <div class="card">
+        <img 
+            src="https://images.unsplash.com/photo-1531746790731-6c087fecd65a?auto=format&fit=crop&w=800&q=80" 
+            alt="Python Chatbot Project"
+        >
+        <div class="card-content">
+            <h3>Python Chatbot</h3>
+            <p>
+                AI-powered chatbot built using Python and Flask,
+                deployed live with real-time responses.
+            </p>
+        </div>
+    </div>
+</a>
+
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact" id="contact">
+        <h2>Contact Me</h2>
+        <form id="contact-form">
+            <input type="text" id="name" name="name" placeholder="Your Name" required>
+            <input type="email" id="email" name="email" placeholder="Your Email" required>
+            <textarea id="message" name="message" placeholder="Your Message" required></textarea>
+            <button type="submit">Send Message</button>
+        </form>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2025 Alpesh Umaratkar. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
