@@ -18,7 +18,8 @@ document.getElementById('contact-form').addEventListener('submit', function(e) {
     };
 
     // Send data to backend API
-    fetch('http://localhost:5000/api/contact', {   // <-- backend URL
+    fetch('https://portfolio-backend-9nb7.onrender.com/api/contact', {
+   // <-- backend URL
         method: 'POST',
         headers: {
             'Content-Type': 'application/json'
@@ -36,6 +37,6 @@ document.getElementById('contact-form').addEventListener('submit', function(e) {
     })
     .catch(err => {
         console.error('Error:', err);
-        alert('Could not send message. Check console for errors.');
+        alert('Could not send message. Please try again later.');
     });
 });
