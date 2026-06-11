@@ -1,4 +1,3 @@
-# my-portfolio
 # My Portfolio Website
 
 ## Overview
@@ -25,7 +24,7 @@ The website allows visitors and recruiters to learn about my technical backgroun
 
 ### Backend
 - Node.js
-- 
+
 ### Tools
 - Git
 - GitHub
